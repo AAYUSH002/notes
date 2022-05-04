@@ -1,0 +1,55 @@
+Architecture 
+
+⬘  SQL Databases are "Relational" while NoSQL databases are "Non-Relational".
+
+⬙  SQL Databases are not mandatorily distributed while NoSQL databases are architected for distributed systems.
+
+Schema
+
+⬘  Schemas in SQL Database is mandatory and, predefined.
+
+⬙  Schemas in NoSQL Database is dynamic. It is not mandatory to define a Schema before creation of data.
+
+Scalability
+
+⬘  SQL Databases are mostly "vertically scalable" means you need to increase the machine's CPU, RAM, Storage for scaling.
+
+⬙  NoSQL Databases are "horizontally scalable" means you just need to add new machines to scale up. NoSQL databases are distributed.
+
+Data Structure
+
+⬘  SQL Databases are Table based.
+
+⬙  NoSQL databases have many variants. There exists Document based, Key-Value based, Wide-Column Store based, Graph based and many other types.
+
+Properties
+
+⬘  SQL Databases are ACID compliant. It means consistency of data is of high priority.
+
+⬙  Where as NoSQL Databases support any 2 of CAP (Consistency, Availability and Partition Tolerance).
+
+ Which one should we use?
+
+⬘  It's not too simple to decide which type of database you should use.
+
+⬙  Mostly we may try to finalise based on
+
+    ❍  Structured Data
+    ❍  Scalability
+    ❍  Consistency
+
+Structured Data
+
+⬘  Is your data mostly structured? Is it important for you to handle "multi-row transactions"? SQL Databases would be the preferred one.
+
+⬙  Most of the NoSQL databases are better for unstructured and, semi-structured data.
+
+Scalability
+
+If data can grow quickly and you want to scale up immediately on-demand, then NoSQL should be the preferred one.
+
+Consistency
+
+⬘  How important is it for you that your data should always remain consistent?
+
+⬙  Either go for a SQL database or, a NoSQL database which obeys consistency from CAP.
